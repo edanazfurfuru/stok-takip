@@ -22,3 +22,7 @@ logs/
 # OS
 .DS_Store
 Thumbs.db
+
+# Otomasyon scriptleri
+auto-commit.bat
+setup-scheduler.ps1
