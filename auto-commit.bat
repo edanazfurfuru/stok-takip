@@ -1,8 +1,8 @@
 @echo off
 setlocal enabledelayedexpansion
 
-:: Proje dizinine git
-cd /d "C:\Users\Eda\OneDrive\Masaüstü\Antigravity\stok-takip"
+:: Proje dizinine git (scriptin bulundugu yer)
+cd /d "%~dp0"
 
 :: Log dosyasını tanımla
 set LOGFILE=commit-history.log
