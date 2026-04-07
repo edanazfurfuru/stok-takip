@@ -23,6 +23,9 @@ logs/
 .DS_Store
 Thumbs.db
 
-# Otomasyon scriptleri
+# Otomasyon scriptleri ve Planlama
 auto-commit.bat
 setup-scheduler.ps1
+implementation_plan.md
+task.md
+walkthrough.md
