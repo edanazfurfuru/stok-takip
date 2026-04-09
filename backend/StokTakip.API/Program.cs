@@ -19,6 +19,11 @@ builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")
         ?? "Data Source=stoktakip.db"));
 
+// Services
+builder.Services.AddScoped<StokTakip.API.Services.CategoryService>();
+builder.Services.AddScoped<StokTakip.API.Services.SupplierService>();
+builder.Services.AddScoped<StokTakip.API.Services.ProductService>();
+
 // Controllers
 builder.Services.AddControllers()
     .AddJsonOptions(options =>
