@@ -23,6 +23,7 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 builder.Services.AddScoped<StokTakip.API.Services.CategoryService>();
 builder.Services.AddScoped<StokTakip.API.Services.SupplierService>();
 builder.Services.AddScoped<StokTakip.API.Services.ProductService>();
+builder.Services.AddScoped<StokTakip.API.Services.StockMovementService>();
 
 // Controllers
 builder.Services.AddControllers()
